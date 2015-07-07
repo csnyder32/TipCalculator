@@ -40,11 +40,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func calculateButton(sender: AnyObject)
     {
         calculateTip()
-       
         self.view.endEditing(true)
-        
     }
-
 
     func calculateTip() {
         var billAmount = NSString(string: billAmountTextField.text).floatValue
@@ -69,13 +66,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
             partyAmountLabel.text = "$\(totalAmount / 5)0"
         case 5:
             partyAmountLabel.text = "$\(totalAmount / 6)0"
-
-
         default:
             break
         }
     }
-
 
     override func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
         self.view.endEditing(true)
