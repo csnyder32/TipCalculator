@@ -50,22 +50,22 @@ class ViewController: UIViewController, UITextFieldDelegate {
         var tipAmount = billAmount * tipPercentage
         var totalAmount = billAmount + tipAmount
 
-        tipAmountLabel.text = "$\(tipAmount)0"
-        totalBillLabel.text = "$\(totalAmount)0"
+        tipAmountLabel.text = "$\(tipAmount)"
+        totalBillLabel.text = "$\(totalAmount)"
 
         switch partySegmentControl.selectedSegmentIndex {
         case 0:
-            partyAmountLabel.text = "$\(totalAmount / 1)0"
+            partyAmountLabel.text = "$\(totalAmount / 1)"
         case 1:
-            partyAmountLabel.text = "$\(totalAmount / 2)0"
+            partyAmountLabel.text = "$\(totalAmount / 2)"
         case 2:
-            partyAmountLabel.text = "$\(totalAmount / 3)0"
+            partyAmountLabel.text = "$\(totalAmount / 3)"
         case 3:
-            partyAmountLabel.text = "$\(totalAmount / 4)0"
+            partyAmountLabel.text = "$\(totalAmount / 4)"
         case 4:
-            partyAmountLabel.text = "$\(totalAmount / 5)0"
+            partyAmountLabel.text = "$\(totalAmount / 5)"
         case 5:
-            partyAmountLabel.text = "$\(totalAmount / 6)0"
+            partyAmountLabel.text = "$\(totalAmount / 6)"
         default:
             break
         }

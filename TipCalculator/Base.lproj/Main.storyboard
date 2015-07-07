@@ -91,7 +91,7 @@
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ISM-gW-3M8">
                                 <rect key="frame" x="27" y="273" width="320" height="29"/>
-                                <color key="backgroundColor" red="0.75529938813076924" green="0.82383631989300465" blue="0.97836538456643363" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.75529938813076924" green="0.82383631989300465" blue="0.97836538456643363" alpha="0.78000000000000003" colorSpace="calibratedRGB"/>
                                 <segments>
                                     <segment title="1"/>
                                     <segment title="2"/>
@@ -100,7 +100,7 @@
                                     <segment title="5"/>
                                     <segment title="6"/>
                                 </segments>
-                                <color key="tintColor" red="0.72504552735594407" green="0.15925973534895105" blue="0.060284369472727271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.0" green="0.42496805007641131" blue="0.24055142102869412" alpha="1" colorSpace="calibratedRGB"/>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WxM-up-vjL">
                                 <rect key="frame" x="27" y="319" width="320" height="30"/>
